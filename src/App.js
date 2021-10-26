@@ -27,8 +27,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <h1>Teams</h1>
+      <div style={{textAlign:"center"}} className="container">
+        <h1 style={{fontFamily:"cursive"}}>Premier League Teams</h1>
         <div className="row p-2 justify-content-around">
           {teams.map(team =>
             <TeamInfo shortName={team.shortName} image={team.crestUrl} stade={team.venue} address={team.address} email={team.email} tel={team.phone} founded={team.founded} />
