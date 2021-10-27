@@ -1,0 +1,4 @@
+.border:hover {
+    /* background-color: whitesmoke; */
+    background: linear-gradient(to bottom, white 50% , rgb(226, 226, 226) 100%);
+}
